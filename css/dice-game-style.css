@@ -1,0 +1,82 @@
+body {
+    background-image: url(../images/anonymous.jpg);
+    background-size: 111% 444%;
+}
+@media (min-width: 50px) and (max-width: 450px) {
+    body {
+        background-size: 300% 190%;
+        background-position: 55% 2%;
+        
+    }
+    }
+@media (min-width: 450px) and (max-width: 800px) {
+    body {
+        background-size: 222% 222%;
+        background-position: 55% 2%;
+        
+    }
+    }
+@media (min-width: 800px) and (max-width: 1250px) {
+    body {
+        background-size: 222% 222%;
+        background-position: 70% 2%;
+    }
+    }
+@media (min-width: 1250px) and (max-width: 3140px) {
+    body {
+            background-size: 122% 199%;
+            background-position: 70% 4%;
+        }
+        }
+h1 {
+    text-align: center;
+    color: aliceblue;
+    
+    font-size: 777%;
+    text-shadow: black 5px 3px;
+    font-family: 'Black Ops One', system-ui;
+
+}
+h1:hover {
+    color: red;
+    cursor:cell;
+}
+@media (min-width: 50px) and (max-width: 800px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 444%;
+    color: green;
+    text-shadow: black 3px 3px;
+    
+}
+h2:hover {
+    color: yellow;
+    cursor: crosshair;
+}
+p { 
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 3px 2px;
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+}
+p:hover {
+    color: yellow;
+    cursor:crosshair;
+}
+@media (min-width: 50px) and (max-width: 450px) {
+    p {
+        font-size: 11px;
+    }
+}
+@media (min-width: 450px) and (max-width: 800px) {
+    p {
+        
+        font-size: 12px; 
+    }
+    }
+

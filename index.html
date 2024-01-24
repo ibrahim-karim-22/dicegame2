@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ibrahim Karim" />
+    <title>Dice Game: Win All The Coins!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dice-game-style.css" />
+</head>
+<body>
+    <h1>Dice Game</h1>
+    <h2 class="text-center">Rules:</h2>
+    <div class="div1 text-center">
+        <p class="text1">When you click the Roll Dice! button, you will roll up to 10 dice, one at a time. </p>
+        <p>If you roll 2, 3, or 4, you win nothing but you get to roll again.</p>
+        <p>If you roll a 5, you win 5 gold coins and you get to roll again.</p>
+        <p>If you roll a 6, you win 6 gold coins and you get to roll again.</p>
+        <p>If you roll a 1, game stops and all further rolls are forfeited.</p>
+    </div>
+    <div align="center">
+    <button type="button" class="btn btn-warning btn-lg me-5 text-dark" onclick="rollDice()">Roll Dice!</button>
+    </div>
+<div align="center" class="mt-5 me-5">
+    <audio controls autoplay loop preload="auto">
+        <source src="audio/music.mp3" type="audio/mpeg">
+    </audio>
+</div>
+    <script src="./js/dice-game.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
